@@ -1,0 +1,128 @@
+﻿body {
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
+    color: black;
+}
+
+header {
+    background-color: orange;
+    border-style: solid;
+    border-width: 2px;
+    width: 1024px;
+    height: 75px;
+}
+
+aside {
+    background-color: green;
+    border-style: solid;
+    border-width: 2px;
+    float: right;
+    width: 29%;
+    clear: right;
+    margin: 0;
+    height: 870px;
+    margin-right: -4px;
+    margin-top: -2px;
+    position: static;
+    display: flex;
+}
+
+    .asideclass ul {
+        padding: 0 0 0 5px;
+    }
+
+#country {
+    padding: 0 0 0 10px;
+}
+
+footer {
+    background-color: purple;
+    border-style: solid;
+    border-width: 2px;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 1024px;
+    clear: both;
+    float: left;
+}
+
+#asideID {
+    width: 200px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#main {
+    background-color: yellow;
+    float: right;
+    clear: right;
+    width: 725px;
+    height: 870px;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: -2px;
+}
+
+.mainclass h2 {
+    margin-left: 10px;
+}
+
+#pID {
+    margin-left: 10px;
+}
+
+#topnav {
+    float: left;
+}
+
+#firsth1 {
+    float: left;
+}
+
+#art1 {
+    width: 420px;
+    margin-left: 10px;
+    float: left;
+    clear: left;
+}
+
+#art2 {
+    width: 37%;
+    margin-left: 10px;
+    float: left;
+    clear: right;
+}
+
+
+
+#bild {
+    padding: 0 5px 5px 10px;
+}
+
+nav.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+    nav.topnav ul li {
+        float: left;
+    }
+
+nav.topnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    background-color: blue;
+    padding: 28px 30px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: -2px;
+}
